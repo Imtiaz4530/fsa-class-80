@@ -1,0 +1,76 @@
+/*=============================================
+=            Color            =
+=============================================*/
+/*Natural Color*/
+/*=====  End of Color  ======*/
+/*=============================================
+=            Typography            =
+=============================================*/
+/*Font Families*/
+/**
+ *
+ * 1. Playfair font, we will use this mostly on headings.
+ *     https://fonts.google.com/speciman/Playfair+Display
+ *
+ * 2. Raleway font, we will use this mostly on body text.
+ *     https://fonts.google.com/speciman/Raleway
+ */
+/* 1 */
+/* 2 */
+/* Font Size */
+/* Heading Font Size */
+/* Font Weight */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoints            =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=               Spacing
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=               Shadows
+=============================================*/
+/*=============================================
+=            Global Text Color            =
+=============================================*/
+/*=====  End of  Global Text Color  ======*/
+/*=============================================
+=            Global Text Color            =
+=============================================*/
+/*=====  End of  Global Text Color  ======*/
+/*=============================================
+=            Heading Font Sizes            =
+=============================================*/
+body {
+  font-size: 12px;
+}
+@media (min-width: 48rem) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 64rem) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (min-width: 80rem) {
+  body {
+    font-size: 18px;
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 0.25rem;
+  font-family: var(--dse-body-font-family, "Playfair Display", serif);
+  font-size: var(--dse-body-font-size, 0.875rem);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: var(--dse-btn-primary-color, "#fff");
+}

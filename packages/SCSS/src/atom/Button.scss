@@ -1,0 +1,14 @@
+@import "../foudation/_all";
+
+.btn {
+  border: none;
+  border-radius: map-get($spacing, "xxxs");
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  padding: map-get($spacing, "xxs") map-get($spacing, "sm");
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: $btn-primary-color;
+}
